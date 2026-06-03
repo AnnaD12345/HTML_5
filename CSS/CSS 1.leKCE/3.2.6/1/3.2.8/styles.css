@@ -33,3 +33,32 @@ li:nth-child(even) {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
 }
+
+.card {
+    margin-top: 15px;
+    border: solid 1px rgb(214, 208, 208);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .06);
+
+    transition: transform 300ms ease-in-out,
+                border-color 300ms ease-in-out,
+                box-shadow 300ms ease-in-out
+}
+
+.card:hover {
+    border-color:  #b3bcbc;
+    transform:translateY(-10px);
+    box-shadow: 0 14px 28px rgba(0,0,0,.12);
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: tomato;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
