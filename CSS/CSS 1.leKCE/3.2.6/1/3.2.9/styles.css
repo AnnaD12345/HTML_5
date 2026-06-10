@@ -1,67 +1,114 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+ 
+  margin: 0;
+ 
+  padding: 0;
+ 
+  box-sizing: border-box;
+ 
 }
  
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9f9f9;
+body {
+ 
+  font-family: Arial, sans-serif;
+ 
+  color: #222;
+ 
+  background-color: #f8f8f8;
+ 
 }
-.navbar{
-    background-color: #ffffff;
-    border-top: 1px solid #dcdcdc;
-    border-bottom: 1px solid #dcdcdc;
-    padding: 20px  0;
-    margin-top: 40px;
+ 
+header {
+ 
+  height: 80px;
+ 
+  border-bottom: 1px solid #ddd;
+ 
+  background-color: white;
+ 
+  display: flex;
+ 
+  justify-content: center;
+ 
+  align-items: center;
+ 
 }
-.navbar ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+ 
+nav {
+ 
+  display: flex;
+ 
+  gap: 50px;
+ 
 }
-.navbar a {
-    text-decoration: none;
-    color: #555555;
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s ease;
+ 
+nav a {
+ 
+  text-decoration: none;
+ 
+  color: #333;
+ 
+  font-size: 16px;
+ 
+  font-weight: 600;
+ 
 }
-.navbar a.active {
-    color: #000000;
-    font-weight: bold;
+ 
+.hero {
+ 
+  min-height: calc(100vh - 80px);
+ 
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  justify-content: center;
+ 
+  align-items: center;
+ 
+  text-align: center;
+ 
+  padding: 40px 20px;
+ 
 }
-.navbar a:hover {
-    color: #ff0000;
+ 
+.hero h1 {
+ 
+  font-size: 64px;
+ 
+  line-height: 1.15;
+ 
+  margin-bottom: 35px;
+ 
+  font-weight: 800;
+ 
 }
-.hero-section h1{
-    font-size: 48px;
-    font-weight: 700;
-    color: #222222;
-    margin-bottom: 30px;
-    line-height: 1.2;
+ 
+.hero p {
+ 
+  max-width: 760px;
+ 
+  font-size: 18px;
+ 
+  line-height: 1.5;
+ 
+  margin-bottom: 40px;
+ 
+  font-weight: 600;
+ 
 }
-.hero-section p {
-    font-size: 16px;
-    color: #555555;
-    max-width: 850px;
-    line-height: 1.6;
-    margin-bottom: 50px;
-}
-.btn-primary{
-    display: inline-block;
-    background: linear-gradient(90deg,#9b51e0,#6610f2);
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 16px 40px;
-    border-radius: 30px;
-    box-shadow: 0 4px 15px rgba(102, 16, 242, 0.3);
-    transition: transform 0.2 ease, opacity 0.2 ease;
-}
-.btn-primary:hover {
-    opacity: 0.9;
-    transform: scale(1.02);
-}
+ 
+.button {
+ 
+  text-decoration: none;
+ 
+  background: linear-gradient(90deg, #9b3cff, #2700ff);
+  color: #111;
+ 
+  padding: 18px 55px;
+ 
+  border-radius: 25px;
+ 
+  font-weight: 700;
+ }
+ 
